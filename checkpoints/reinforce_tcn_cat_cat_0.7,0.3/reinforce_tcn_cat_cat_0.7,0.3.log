@@ -1,0 +1,1250 @@
+Epoch 00/250 
+	| Avg Actor Loss: 0.0483 | Avg Critic Loss: 0.1210 
+	| Avg Length: 25.2870 | Avg Reward: 0.6437 
+	| Avg Length: 4.4920 | Avg Reward: 0.6348
+	| OG  Acc: 1.00  | Masked Acc: 0.50 | OG  F1: 1.00 | Masked F1: 0.64
+Epoch 01/250 
+	| Avg Actor Loss: 0.0514 | Avg Critic Loss: 0.0517 
+	| Avg Length: 25.6620 | Avg Reward: 0.6462 
+	| Avg Length: 42.5400 | Avg Reward: 0.7094
+	| OG  Acc: 1.00  | Masked Acc: 0.77 | OG  F1: 1.00 | Masked F1: 0.80
+Epoch 02/250 
+	| Avg Actor Loss: 0.0372 | Avg Critic Loss: 0.0481 
+	| Avg Length: 27.5018 | Avg Reward: 0.6458 
+	| Avg Length: 27.8484 | Avg Reward: 0.6886
+	| OG  Acc: 1.00  | Masked Acc: 0.68 | OG  F1: 1.00 | Masked F1: 0.74
+Epoch 03/250 
+	| Avg Actor Loss: 0.0385 | Avg Critic Loss: 0.0466 
+	| Avg Length: 28.4302 | Avg Reward: 0.6503 
+	| Avg Length: 27.0000 | Avg Reward: 0.6854
+	| OG  Acc: 1.00  | Masked Acc: 0.67 | OG  F1: 1.00 | Masked F1: 0.74
+Epoch 04/250 
+	| Avg Actor Loss: -0.0010 | Avg Critic Loss: 0.0431 
+	| Avg Length: 29.9270 | Avg Reward: 0.6646 
+	| Avg Length: 27.0000 | Avg Reward: 0.6862
+	| OG  Acc: 1.00  | Masked Acc: 0.67 | OG  F1: 1.00 | Masked F1: 0.74
+Epoch 05/250 
+	| Avg Actor Loss: -0.0147 | Avg Critic Loss: 0.0405 
+	| Avg Length: 30.7014 | Avg Reward: 0.6582 
+	| Avg Length: 36.0912 | Avg Reward: 0.7021
+	| OG  Acc: 1.00  | Masked Acc: 0.73 | OG  F1: 1.00 | Masked F1: 0.78
+Epoch 06/250 
+	| Avg Actor Loss: -0.0135 | Avg Critic Loss: 0.0362 
+	| Avg Length: 32.6896 | Avg Reward: 0.6702 
+	| Avg Length: 60.0182 | Avg Reward: 0.7260
+	| OG  Acc: 1.00  | Masked Acc: 0.87 | OG  F1: 1.00 | Masked F1: 0.88
+Epoch 07/250 
+	| Avg Actor Loss: -0.0276 | Avg Critic Loss: 0.0356 
+	| Avg Length: 33.4164 | Avg Reward: 0.6669 
+	| Avg Length: 67.0000 | Avg Reward: 0.7409
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 08/250 
+	| Avg Actor Loss: -0.1070 | Avg Critic Loss: 0.0342 
+	| Avg Length: 36.2026 | Avg Reward: 0.6771 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 09/250 
+	| Avg Actor Loss: -0.1543 | Avg Critic Loss: 0.0326 
+	| Avg Length: 38.6744 | Avg Reward: 0.6757 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 10/250 
+	| Avg Actor Loss: -0.1810 | Avg Critic Loss: 0.0311 
+	| Avg Length: 41.3598 | Avg Reward: 0.6850 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 11/250 
+	| Avg Actor Loss: -0.1635 | Avg Critic Loss: 0.0284 
+	| Avg Length: 43.6380 | Avg Reward: 0.6949 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 12/250 
+	| Avg Actor Loss: -0.2280 | Avg Critic Loss: 0.0262 
+	| Avg Length: 46.8862 | Avg Reward: 0.7003 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 13/250 
+	| Avg Actor Loss: -0.2384 | Avg Critic Loss: 0.0257 
+	| Avg Length: 48.3756 | Avg Reward: 0.6969 
+	| Avg Length: 67.0000 | Avg Reward: 0.7410
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 14/250 
+	| Avg Actor Loss: -0.1422 | Avg Critic Loss: 0.0243 
+	| Avg Length: 50.1440 | Avg Reward: 0.7046 
+	| Avg Length: 67.0000 | Avg Reward: 0.7409
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 15/250 
+	| Avg Actor Loss: -0.2113 | Avg Critic Loss: 0.0220 
+	| Avg Length: 52.0254 | Avg Reward: 0.7089 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 16/250 
+	| Avg Actor Loss: -0.1887 | Avg Critic Loss: 0.0206 
+	| Avg Length: 54.0042 | Avg Reward: 0.7130 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 17/250 
+	| Avg Actor Loss: -0.1999 | Avg Critic Loss: 0.0190 
+	| Avg Length: 56.0040 | Avg Reward: 0.7153 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 18/250 
+	| Avg Actor Loss: -0.2022 | Avg Critic Loss: 0.0180 
+	| Avg Length: 56.2426 | Avg Reward: 0.7191 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 19/250 
+	| Avg Actor Loss: -0.2320 | Avg Critic Loss: 0.0173 
+	| Avg Length: 58.1512 | Avg Reward: 0.7187 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 20/250 
+	| Avg Actor Loss: -0.1931 | Avg Critic Loss: 0.0171 
+	| Avg Length: 58.8014 | Avg Reward: 0.7201 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 21/250 
+	| Avg Actor Loss: -0.1414 | Avg Critic Loss: 0.0152 
+	| Avg Length: 59.2332 | Avg Reward: 0.7281 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 22/250 
+	| Avg Actor Loss: -0.1593 | Avg Critic Loss: 0.0150 
+	| Avg Length: 60.5380 | Avg Reward: 0.7264 
+	| Avg Length: 67.0000 | Avg Reward: 0.7409
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 23/250 
+	| Avg Actor Loss: -0.2289 | Avg Critic Loss: 0.0140 
+	| Avg Length: 61.5088 | Avg Reward: 0.7269 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 24/250 
+	| Avg Actor Loss: -0.2767 | Avg Critic Loss: 0.0139 
+	| Avg Length: 62.3586 | Avg Reward: 0.7253 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 25/250 
+	| Avg Actor Loss: -0.1338 | Avg Critic Loss: 0.0131 
+	| Avg Length: 62.5366 | Avg Reward: 0.7290 
+	| Avg Length: 67.0000 | Avg Reward: 0.7409
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 26/250 
+	| Avg Actor Loss: -0.2331 | Avg Critic Loss: 0.0122 
+	| Avg Length: 63.8962 | Avg Reward: 0.7282 
+	| Avg Length: 67.0000 | Avg Reward: 0.7409
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 27/250 
+	| Avg Actor Loss: -0.2144 | Avg Critic Loss: 0.0122 
+	| Avg Length: 64.0048 | Avg Reward: 0.7268 
+	| Avg Length: 67.0000 | Avg Reward: 0.7407
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 28/250 
+	| Avg Actor Loss: -0.1897 | Avg Critic Loss: 0.0111 
+	| Avg Length: 64.8406 | Avg Reward: 0.7317 
+	| Avg Length: 67.0000 | Avg Reward: 0.7408
+	| OG  Acc: 1.00  | Masked Acc: 0.92 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 29/250 
+	| Avg Actor Loss: -0.1163 | Avg Critic Loss: 0.0099 
+	| Avg Length: 65.5642 | Avg Reward: 0.7336 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 30/250 
+	| Avg Actor Loss: -0.2012 | Avg Critic Loss: 0.0104 
+	| Avg Length: 65.9584 | Avg Reward: 0.7304 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 31/250 
+	| Avg Actor Loss: -0.2582 | Avg Critic Loss: 0.0094 
+	| Avg Length: 66.2220 | Avg Reward: 0.7319 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 32/250 
+	| Avg Actor Loss: -0.1839 | Avg Critic Loss: 0.0089 
+	| Avg Length: 66.5534 | Avg Reward: 0.7339 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 33/250 
+	| Avg Actor Loss: -0.2049 | Avg Critic Loss: 0.0090 
+	| Avg Length: 66.8376 | Avg Reward: 0.7360 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 34/250 
+	| Avg Actor Loss: -0.1561 | Avg Critic Loss: 0.0082 
+	| Avg Length: 67.2096 | Avg Reward: 0.7369 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 35/250 
+	| Avg Actor Loss: -0.1807 | Avg Critic Loss: 0.0080 
+	| Avg Length: 67.2390 | Avg Reward: 0.7364 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 36/250 
+	| Avg Actor Loss: -0.2283 | Avg Critic Loss: 0.0078 
+	| Avg Length: 67.6838 | Avg Reward: 0.7360 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 37/250 
+	| Avg Actor Loss: -0.2592 | Avg Critic Loss: 0.0072 
+	| Avg Length: 67.7868 | Avg Reward: 0.7380 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 38/250 
+	| Avg Actor Loss: -0.2482 | Avg Critic Loss: 0.0068 
+	| Avg Length: 68.1036 | Avg Reward: 0.7398 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 39/250 
+	| Avg Actor Loss: -0.1418 | Avg Critic Loss: 0.0064 
+	| Avg Length: 68.1950 | Avg Reward: 0.7410 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 40/250 
+	| Avg Actor Loss: -0.1102 | Avg Critic Loss: 0.0071 
+	| Avg Length: 66.4792 | Avg Reward: 0.7464 
+	| Avg Length: 68.9688 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 41/250 
+	| Avg Actor Loss: -0.1115 | Avg Critic Loss: 0.0075 
+	| Avg Length: 64.5690 | Avg Reward: 0.7549 
+	| Avg Length: 68.9636 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 42/250 
+	| Avg Actor Loss: -0.1930 | Avg Critic Loss: 0.0087 
+	| Avg Length: 61.4638 | Avg Reward: 0.7574 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 43/250 
+	| Avg Actor Loss: -0.2167 | Avg Critic Loss: 0.0074 
+	| Avg Length: 62.5670 | Avg Reward: 0.7608 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 44/250 
+	| Avg Actor Loss: -0.1222 | Avg Critic Loss: 0.0076 
+	| Avg Length: 62.0086 | Avg Reward: 0.7656 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 45/250 
+	| Avg Actor Loss: -0.1635 | Avg Critic Loss: 0.0080 
+	| Avg Length: 61.6566 | Avg Reward: 0.7650 
+	| Avg Length: 69.0000 | Avg Reward: 0.7419
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 46/250 
+	| Avg Actor Loss: -0.2392 | Avg Critic Loss: 0.0085 
+	| Avg Length: 61.1238 | Avg Reward: 0.7646 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 47/250 
+	| Avg Actor Loss: -0.1050 | Avg Critic Loss: 0.0073 
+	| Avg Length: 61.4938 | Avg Reward: 0.7696 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 48/250 
+	| Avg Actor Loss: -0.2526 | Avg Critic Loss: 0.0076 
+	| Avg Length: 60.8090 | Avg Reward: 0.7664 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 49/250 
+	| Avg Actor Loss: -0.1117 | Avg Critic Loss: 0.0074 
+	| Avg Length: 61.5154 | Avg Reward: 0.7701 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 50/250 
+	| Avg Actor Loss: -0.1606 | Avg Critic Loss: 0.0071 
+	| Avg Length: 61.0152 | Avg Reward: 0.7668 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 51/250 
+	| Avg Actor Loss: -0.1601 | Avg Critic Loss: 0.0073 
+	| Avg Length: 60.9678 | Avg Reward: 0.7684 
+	| Avg Length: 69.0000 | Avg Reward: 0.7420
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 52/250 
+	| Avg Actor Loss: -0.0479 | Avg Critic Loss: 0.0073 
+	| Avg Length: 60.4146 | Avg Reward: 0.7709 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 53/250 
+	| Avg Actor Loss: -0.1579 | Avg Critic Loss: 0.0071 
+	| Avg Length: 60.4358 | Avg Reward: 0.7707 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 54/250 
+	| Avg Actor Loss: -0.0898 | Avg Critic Loss: 0.0075 
+	| Avg Length: 60.1948 | Avg Reward: 0.7702 
+	| Avg Length: 69.0000 | Avg Reward: 0.7418
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 55/250 
+	| Avg Actor Loss: -0.0841 | Avg Critic Loss: 0.0067 
+	| Avg Length: 60.9474 | Avg Reward: 0.7722 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 56/250 
+	| Avg Actor Loss: -0.1679 | Avg Critic Loss: 0.0078 
+	| Avg Length: 59.8062 | Avg Reward: 0.7730 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 57/250 
+	| Avg Actor Loss: -0.1126 | Avg Critic Loss: 0.0068 
+	| Avg Length: 60.1706 | Avg Reward: 0.7742 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 58/250 
+	| Avg Actor Loss: -0.1218 | Avg Critic Loss: 0.0080 
+	| Avg Length: 59.4430 | Avg Reward: 0.7734 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 59/250 
+	| Avg Actor Loss: -0.0634 | Avg Critic Loss: 0.0078 
+	| Avg Length: 59.1710 | Avg Reward: 0.7730 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 60/250 
+	| Avg Actor Loss: -0.1106 | Avg Critic Loss: 0.0075 
+	| Avg Length: 59.4096 | Avg Reward: 0.7763 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 61/250 
+	| Avg Actor Loss: -0.1276 | Avg Critic Loss: 0.0072 
+	| Avg Length: 59.9940 | Avg Reward: 0.7780 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 62/250 
+	| Avg Actor Loss: -0.1422 | Avg Critic Loss: 0.0074 
+	| Avg Length: 59.7442 | Avg Reward: 0.7752 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 63/250 
+	| Avg Actor Loss: -0.0338 | Avg Critic Loss: 0.0076 
+	| Avg Length: 59.0404 | Avg Reward: 0.7762 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 64/250 
+	| Avg Actor Loss: -0.1129 | Avg Critic Loss: 0.0070 
+	| Avg Length: 59.5880 | Avg Reward: 0.7759 
+	| Avg Length: 69.0000 | Avg Reward: 0.7420
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 65/250 
+	| Avg Actor Loss: -0.2658 | Avg Critic Loss: 0.0076 
+	| Avg Length: 59.7570 | Avg Reward: 0.7750 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 66/250 
+	| Avg Actor Loss: 0.0132 | Avg Critic Loss: 0.0073 
+	| Avg Length: 59.0678 | Avg Reward: 0.7803 
+	| Avg Length: 69.0000 | Avg Reward: 0.7422
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 67/250 
+	| Avg Actor Loss: -0.0148 | Avg Critic Loss: 0.0076 
+	| Avg Length: 58.7928 | Avg Reward: 0.7799 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 68/250 
+	| Avg Actor Loss: -0.2148 | Avg Critic Loss: 0.0083 
+	| Avg Length: 57.8976 | Avg Reward: 0.7810 
+	| Avg Length: 69.0000 | Avg Reward: 0.7423
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 69/250 
+	| Avg Actor Loss: -0.2373 | Avg Critic Loss: 0.0076 
+	| Avg Length: 59.0602 | Avg Reward: 0.7778 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 70/250 
+	| Avg Actor Loss: -0.1661 | Avg Critic Loss: 0.0069 
+	| Avg Length: 58.9180 | Avg Reward: 0.7829 
+	| Avg Length: 69.0000 | Avg Reward: 0.7421
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 71/250 
+	| Avg Actor Loss: -0.2677 | Avg Critic Loss: 0.0077 
+	| Avg Length: 58.4754 | Avg Reward: 0.7781 
+	| Avg Length: 68.9120 | Avg Reward: 0.7424
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 72/250 
+	| Avg Actor Loss: -0.1350 | Avg Critic Loss: 0.0074 
+	| Avg Length: 58.0030 | Avg Reward: 0.7807 
+	| Avg Length: 68.3840 | Avg Reward: 0.7438
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 73/250 
+	| Avg Actor Loss: -0.0597 | Avg Critic Loss: 0.0075 
+	| Avg Length: 58.0174 | Avg Reward: 0.7840 
+	| Avg Length: 67.6140 | Avg Reward: 0.7461
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 74/250 
+	| Avg Actor Loss: -0.2259 | Avg Critic Loss: 0.0082 
+	| Avg Length: 56.9218 | Avg Reward: 0.7801 
+	| Avg Length: 67.1190 | Avg Reward: 0.7477
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 75/250 
+	| Avg Actor Loss: -0.2494 | Avg Critic Loss: 0.0079 
+	| Avg Length: 57.5784 | Avg Reward: 0.7806 
+	| Avg Length: 66.4260 | Avg Reward: 0.7496
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 76/250 
+	| Avg Actor Loss: -0.1254 | Avg Critic Loss: 0.0077 
+	| Avg Length: 57.8348 | Avg Reward: 0.7820 
+	| Avg Length: 65.6450 | Avg Reward: 0.7521
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 77/250 
+	| Avg Actor Loss: -0.1158 | Avg Critic Loss: 0.0076 
+	| Avg Length: 57.7172 | Avg Reward: 0.7835 
+	| Avg Length: 64.7784 | Avg Reward: 0.7545
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 78/250 
+	| Avg Actor Loss: -0.2226 | Avg Critic Loss: 0.0073 
+	| Avg Length: 57.4094 | Avg Reward: 0.7831 
+	| Avg Length: 64.3908 | Avg Reward: 0.7555
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 79/250 
+	| Avg Actor Loss: -0.1641 | Avg Critic Loss: 0.0079 
+	| Avg Length: 57.6412 | Avg Reward: 0.7858 
+	| Avg Length: 63.4406 | Avg Reward: 0.7583
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 80/250 
+	| Avg Actor Loss: -0.2521 | Avg Critic Loss: 0.0078 
+	| Avg Length: 57.5266 | Avg Reward: 0.7853 
+	| Avg Length: 62.2094 | Avg Reward: 0.7619
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 81/250 
+	| Avg Actor Loss: -0.2587 | Avg Critic Loss: 0.0075 
+	| Avg Length: 57.8024 | Avg Reward: 0.7854 
+	| Avg Length: 61.7780 | Avg Reward: 0.7634
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 82/250 
+	| Avg Actor Loss: -0.2451 | Avg Critic Loss: 0.0075 
+	| Avg Length: 57.2768 | Avg Reward: 0.7882 
+	| Avg Length: 60.4518 | Avg Reward: 0.7675
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 83/250 
+	| Avg Actor Loss: -0.2090 | Avg Critic Loss: 0.0076 
+	| Avg Length: 57.5402 | Avg Reward: 0.7878 
+	| Avg Length: 58.0448 | Avg Reward: 0.7744
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 84/250 
+	| Avg Actor Loss: -0.3085 | Avg Critic Loss: 0.0074 
+	| Avg Length: 56.8364 | Avg Reward: 0.7873 
+	| Avg Length: 57.7448 | Avg Reward: 0.7756
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 85/250 
+	| Avg Actor Loss: -0.3023 | Avg Critic Loss: 0.0076 
+	| Avg Length: 56.4486 | Avg Reward: 0.7888 
+	| Avg Length: 55.4800 | Avg Reward: 0.7811
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 86/250 
+	| Avg Actor Loss: -0.2599 | Avg Critic Loss: 0.0085 
+	| Avg Length: 55.3704 | Avg Reward: 0.7902 
+	| Avg Length: 54.2528 | Avg Reward: 0.7834
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 87/250 
+	| Avg Actor Loss: -0.3228 | Avg Critic Loss: 0.0073 
+	| Avg Length: 56.3750 | Avg Reward: 0.7902 
+	| Avg Length: 54.5856 | Avg Reward: 0.7837
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.93
+Epoch 88/250 
+	| Avg Actor Loss: -0.3736 | Avg Critic Loss: 0.0079 
+	| Avg Length: 56.2946 | Avg Reward: 0.7892 
+	| Avg Length: 54.6640 | Avg Reward: 0.7852
+	| OG  Acc: 1.00  | Masked Acc: 0.93 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 89/250 
+	| Avg Actor Loss: -0.3091 | Avg Critic Loss: 0.0069 
+	| Avg Length: 56.2998 | Avg Reward: 0.7927 
+	| Avg Length: 53.0968 | Avg Reward: 0.7946
+	| OG  Acc: 1.00  | Masked Acc: 0.94 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 90/250 
+	| Avg Actor Loss: -0.3343 | Avg Critic Loss: 0.0077 
+	| Avg Length: 55.4828 | Avg Reward: 0.7947 
+	| Avg Length: 53.5868 | Avg Reward: 0.7951
+	| OG  Acc: 1.00  | Masked Acc: 0.94 | OG  F1: 1.00 | Masked F1: 0.94
+Epoch 91/250 
+	| Avg Actor Loss: -0.3292 | Avg Critic Loss: 0.0070 
+	| Avg Length: 55.7794 | Avg Reward: 0.7955 
+	| Avg Length: 53.4824 | Avg Reward: 0.7988
+	| OG  Acc: 1.00  | Masked Acc: 0.95 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 92/250 
+	| Avg Actor Loss: -0.2801 | Avg Critic Loss: 0.0072 
+	| Avg Length: 55.5606 | Avg Reward: 0.7967 
+	| Avg Length: 52.3820 | Avg Reward: 0.8016
+	| OG  Acc: 1.00  | Masked Acc: 0.94 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 93/250 
+	| Avg Actor Loss: -0.2403 | Avg Critic Loss: 0.0067 
+	| Avg Length: 55.3094 | Avg Reward: 0.7990 
+	| Avg Length: 52.8354 | Avg Reward: 0.8006
+	| OG  Acc: 1.00  | Masked Acc: 0.94 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 94/250 
+	| Avg Actor Loss: -0.4506 | Avg Critic Loss: 0.0074 
+	| Avg Length: 55.0790 | Avg Reward: 0.7970 
+	| Avg Length: 53.3320 | Avg Reward: 0.7979
+	| OG  Acc: 1.00  | Masked Acc: 0.94 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 95/250 
+	| Avg Actor Loss: -0.3685 | Avg Critic Loss: 0.0068 
+	| Avg Length: 54.8588 | Avg Reward: 0.7999 
+	| Avg Length: 52.1444 | Avg Reward: 0.8026
+	| OG  Acc: 1.00  | Masked Acc: 0.94 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 96/250 
+	| Avg Actor Loss: -0.3968 | Avg Critic Loss: 0.0067 
+	| Avg Length: 55.1542 | Avg Reward: 0.7992 
+	| Avg Length: 52.1888 | Avg Reward: 0.8030
+	| OG  Acc: 1.00  | Masked Acc: 0.95 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 97/250 
+	| Avg Actor Loss: -0.3440 | Avg Critic Loss: 0.0069 
+	| Avg Length: 54.8254 | Avg Reward: 0.7987 
+	| Avg Length: 52.7184 | Avg Reward: 0.8025
+	| OG  Acc: 1.00  | Masked Acc: 0.95 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 98/250 
+	| Avg Actor Loss: -0.3122 | Avg Critic Loss: 0.0067 
+	| Avg Length: 55.0382 | Avg Reward: 0.8005 
+	| Avg Length: 52.5378 | Avg Reward: 0.8038
+	| OG  Acc: 1.00  | Masked Acc: 0.95 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 99/250 
+	| Avg Actor Loss: -0.4557 | Avg Critic Loss: 0.0068 
+	| Avg Length: 54.4580 | Avg Reward: 0.8023 
+	| Avg Length: 52.6328 | Avg Reward: 0.8058
+	| OG  Acc: 1.00  | Masked Acc: 0.95 | OG  F1: 1.00 | Masked F1: 0.95
+Epoch 100/250 
+	| Avg Actor Loss: -0.4108 | Avg Critic Loss: 0.0063 
+	| Avg Length: 54.7842 | Avg Reward: 0.8041 
+	| Avg Length: 52.6426 | Avg Reward: 0.8129
+	| OG  Acc: 1.00  | Masked Acc: 0.96 | OG  F1: 1.00 | Masked F1: 0.96
+Epoch 101/250 
+	| Avg Actor Loss: -0.4376 | Avg Critic Loss: 0.0063 
+	| Avg Length: 54.3624 | Avg Reward: 0.8041 
+	| Avg Length: 52.4168 | Avg Reward: 0.8195
+	| OG  Acc: 1.00  | Masked Acc: 0.97 | OG  F1: 1.00 | Masked F1: 0.97
+Epoch 102/250 
+	| Avg Actor Loss: -0.4602 | Avg Critic Loss: 0.0064 
+	| Avg Length: 54.0656 | Avg Reward: 0.8033 
+	| Avg Length: 52.0368 | Avg Reward: 0.8272
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 103/250 
+	| Avg Actor Loss: -0.3666 | Avg Critic Loss: 0.0060 
+	| Avg Length: 54.0350 | Avg Reward: 0.8072 
+	| Avg Length: 50.4788 | Avg Reward: 0.8251
+	| OG  Acc: 1.00  | Masked Acc: 0.97 | OG  F1: 1.00 | Masked F1: 0.97
+Epoch 104/250 
+	| Avg Actor Loss: -0.3414 | Avg Critic Loss: 0.0067 
+	| Avg Length: 52.8054 | Avg Reward: 0.8060 
+	| Avg Length: 50.6024 | Avg Reward: 0.8268
+	| OG  Acc: 1.00  | Masked Acc: 0.97 | OG  F1: 1.00 | Masked F1: 0.97
+Epoch 105/250 
+	| Avg Actor Loss: -0.4261 | Avg Critic Loss: 0.0062 
+	| Avg Length: 52.7008 | Avg Reward: 0.8105 
+	| Avg Length: 51.0952 | Avg Reward: 0.8287
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 106/250 
+	| Avg Actor Loss: -0.5432 | Avg Critic Loss: 0.0063 
+	| Avg Length: 52.5566 | Avg Reward: 0.8105 
+	| Avg Length: 51.0036 | Avg Reward: 0.8221
+	| OG  Acc: 1.00  | Masked Acc: 0.97 | OG  F1: 1.00 | Masked F1: 0.97
+Epoch 107/250 
+	| Avg Actor Loss: -0.4522 | Avg Critic Loss: 0.0060 
+	| Avg Length: 52.5298 | Avg Reward: 0.8115 
+	| Avg Length: 52.0032 | Avg Reward: 0.8205
+	| OG  Acc: 1.00  | Masked Acc: 0.97 | OG  F1: 1.00 | Masked F1: 0.97
+Epoch 108/250 
+	| Avg Actor Loss: -0.3624 | Avg Critic Loss: 0.0056 
+	| Avg Length: 52.5422 | Avg Reward: 0.8143 
+	| Avg Length: 50.2770 | Avg Reward: 0.8317
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 109/250 
+	| Avg Actor Loss: -0.4199 | Avg Critic Loss: 0.0063 
+	| Avg Length: 51.7156 | Avg Reward: 0.8128 
+	| Avg Length: 49.9622 | Avg Reward: 0.8309
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 110/250 
+	| Avg Actor Loss: -0.4395 | Avg Critic Loss: 0.0056 
+	| Avg Length: 51.6426 | Avg Reward: 0.8153 
+	| Avg Length: 50.2992 | Avg Reward: 0.8306
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 111/250 
+	| Avg Actor Loss: -0.4576 | Avg Critic Loss: 0.0061 
+	| Avg Length: 51.3166 | Avg Reward: 0.8161 
+	| Avg Length: 51.3104 | Avg Reward: 0.8303
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 112/250 
+	| Avg Actor Loss: -0.3937 | Avg Critic Loss: 0.0052 
+	| Avg Length: 52.3428 | Avg Reward: 0.8168 
+	| Avg Length: 50.2144 | Avg Reward: 0.8344
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 113/250 
+	| Avg Actor Loss: -0.4300 | Avg Critic Loss: 0.0055 
+	| Avg Length: 51.8968 | Avg Reward: 0.8161 
+	| Avg Length: 51.4880 | Avg Reward: 0.8325
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 114/250 
+	| Avg Actor Loss: -0.4376 | Avg Critic Loss: 0.0055 
+	| Avg Length: 51.3874 | Avg Reward: 0.8174 
+	| Avg Length: 50.8064 | Avg Reward: 0.8327
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 115/250 
+	| Avg Actor Loss: -0.3865 | Avg Critic Loss: 0.0050 
+	| Avg Length: 51.4720 | Avg Reward: 0.8206 
+	| Avg Length: 50.1304 | Avg Reward: 0.8348
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 116/250 
+	| Avg Actor Loss: -0.5033 | Avg Critic Loss: 0.0057 
+	| Avg Length: 51.3062 | Avg Reward: 0.8175 
+	| Avg Length: 50.3912 | Avg Reward: 0.8348
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 117/250 
+	| Avg Actor Loss: -0.4023 | Avg Critic Loss: 0.0054 
+	| Avg Length: 51.0364 | Avg Reward: 0.8200 
+	| Avg Length: 50.3048 | Avg Reward: 0.8349
+	| OG  Acc: 1.00  | Masked Acc: 0.98 | OG  F1: 1.00 | Masked F1: 0.98
+Epoch 118/250 
+	| Avg Actor Loss: -0.3919 | Avg Critic Loss: 0.0050 
+	| Avg Length: 51.6812 | Avg Reward: 0.8200 
+	| Avg Length: 50.7192 | Avg Reward: 0.8366
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 119/250 
+	| Avg Actor Loss: -0.3887 | Avg Critic Loss: 0.0050 
+	| Avg Length: 51.5950 | Avg Reward: 0.8206 
+	| Avg Length: 50.7664 | Avg Reward: 0.8369
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 120/250 
+	| Avg Actor Loss: -0.4546 | Avg Critic Loss: 0.0053 
+	| Avg Length: 51.4474 | Avg Reward: 0.8193 
+	| Avg Length: 50.5080 | Avg Reward: 0.8372
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 121/250 
+	| Avg Actor Loss: -0.4011 | Avg Critic Loss: 0.0050 
+	| Avg Length: 51.1678 | Avg Reward: 0.8210 
+	| Avg Length: 50.6296 | Avg Reward: 0.8372
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 122/250 
+	| Avg Actor Loss: -0.3331 | Avg Critic Loss: 0.0050 
+	| Avg Length: 51.0786 | Avg Reward: 0.8220 
+	| Avg Length: 50.5776 | Avg Reward: 0.8369
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 123/250 
+	| Avg Actor Loss: -0.4843 | Avg Critic Loss: 0.0050 
+	| Avg Length: 51.3102 | Avg Reward: 0.8207 
+	| Avg Length: 50.6800 | Avg Reward: 0.8366
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 124/250 
+	| Avg Actor Loss: -0.3863 | Avg Critic Loss: 0.0046 
+	| Avg Length: 51.4714 | Avg Reward: 0.8220 
+	| Avg Length: 50.2904 | Avg Reward: 0.8370
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 125/250 
+	| Avg Actor Loss: -0.3820 | Avg Critic Loss: 0.0045 
+	| Avg Length: 51.2454 | Avg Reward: 0.8227 
+	| Avg Length: 51.0504 | Avg Reward: 0.8363
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 126/250 
+	| Avg Actor Loss: -0.4457 | Avg Critic Loss: 0.0044 
+	| Avg Length: 51.3910 | Avg Reward: 0.8235 
+	| Avg Length: 50.4160 | Avg Reward: 0.8376
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 127/250 
+	| Avg Actor Loss: -0.3596 | Avg Critic Loss: 0.0047 
+	| Avg Length: 51.4912 | Avg Reward: 0.8209 
+	| Avg Length: 51.1488 | Avg Reward: 0.8378
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 128/250 
+	| Avg Actor Loss: -0.3225 | Avg Critic Loss: 0.0042 
+	| Avg Length: 51.4146 | Avg Reward: 0.8248 
+	| Avg Length: 50.7480 | Avg Reward: 0.8379
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 129/250 
+	| Avg Actor Loss: -0.4310 | Avg Critic Loss: 0.0048 
+	| Avg Length: 51.4238 | Avg Reward: 0.8227 
+	| Avg Length: 50.8088 | Avg Reward: 0.8384
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 130/250 
+	| Avg Actor Loss: -0.3607 | Avg Critic Loss: 0.0043 
+	| Avg Length: 51.5018 | Avg Reward: 0.8246 
+	| Avg Length: 50.7512 | Avg Reward: 0.8371
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 131/250 
+	| Avg Actor Loss: -0.3544 | Avg Critic Loss: 0.0042 
+	| Avg Length: 51.4214 | Avg Reward: 0.8255 
+	| Avg Length: 50.8080 | Avg Reward: 0.8381
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 132/250 
+	| Avg Actor Loss: -0.3663 | Avg Critic Loss: 0.0041 
+	| Avg Length: 51.1774 | Avg Reward: 0.8256 
+	| Avg Length: 50.7392 | Avg Reward: 0.8385
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 133/250 
+	| Avg Actor Loss: -0.3233 | Avg Critic Loss: 0.0042 
+	| Avg Length: 51.4996 | Avg Reward: 0.8247 
+	| Avg Length: 50.9064 | Avg Reward: 0.8380
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 134/250 
+	| Avg Actor Loss: -0.4534 | Avg Critic Loss: 0.0042 
+	| Avg Length: 51.2352 | Avg Reward: 0.8251 
+	| Avg Length: 50.9320 | Avg Reward: 0.8384
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 135/250 
+	| Avg Actor Loss: -0.3846 | Avg Critic Loss: 0.0038 
+	| Avg Length: 51.4226 | Avg Reward: 0.8265 
+	| Avg Length: 50.5448 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 136/250 
+	| Avg Actor Loss: -0.4712 | Avg Critic Loss: 0.0039 
+	| Avg Length: 51.3428 | Avg Reward: 0.8253 
+	| Avg Length: 50.8168 | Avg Reward: 0.8381
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 137/250 
+	| Avg Actor Loss: -0.4464 | Avg Critic Loss: 0.0042 
+	| Avg Length: 51.1992 | Avg Reward: 0.8256 
+	| Avg Length: 50.5168 | Avg Reward: 0.8383
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 138/250 
+	| Avg Actor Loss: -0.3771 | Avg Critic Loss: 0.0038 
+	| Avg Length: 51.3430 | Avg Reward: 0.8259 
+	| Avg Length: 51.0152 | Avg Reward: 0.8384
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 139/250 
+	| Avg Actor Loss: -0.3967 | Avg Critic Loss: 0.0039 
+	| Avg Length: 51.4184 | Avg Reward: 0.8254 
+	| Avg Length: 50.2672 | Avg Reward: 0.8376
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 140/250 
+	| Avg Actor Loss: -0.3016 | Avg Critic Loss: 0.0041 
+	| Avg Length: 51.1376 | Avg Reward: 0.8260 
+	| Avg Length: 51.3088 | Avg Reward: 0.8378
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 141/250 
+	| Avg Actor Loss: -0.3349 | Avg Critic Loss: 0.0036 
+	| Avg Length: 51.5880 | Avg Reward: 0.8272 
+	| Avg Length: 50.5864 | Avg Reward: 0.8378
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 142/250 
+	| Avg Actor Loss: -0.3965 | Avg Critic Loss: 0.0039 
+	| Avg Length: 51.2886 | Avg Reward: 0.8267 
+	| Avg Length: 51.2208 | Avg Reward: 0.8378
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 143/250 
+	| Avg Actor Loss: -0.4004 | Avg Critic Loss: 0.0036 
+	| Avg Length: 51.7508 | Avg Reward: 0.8273 
+	| Avg Length: 50.5824 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 144/250 
+	| Avg Actor Loss: -0.3744 | Avg Critic Loss: 0.0033 
+	| Avg Length: 51.2336 | Avg Reward: 0.8288 
+	| Avg Length: 50.5360 | Avg Reward: 0.8385
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 145/250 
+	| Avg Actor Loss: -0.3400 | Avg Critic Loss: 0.0039 
+	| Avg Length: 51.1426 | Avg Reward: 0.8265 
+	| Avg Length: 50.7984 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 146/250 
+	| Avg Actor Loss: -0.3002 | Avg Critic Loss: 0.0036 
+	| Avg Length: 51.1358 | Avg Reward: 0.8279 
+	| Avg Length: 50.8912 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 147/250 
+	| Avg Actor Loss: -0.4184 | Avg Critic Loss: 0.0037 
+	| Avg Length: 51.1268 | Avg Reward: 0.8279 
+	| Avg Length: 50.5464 | Avg Reward: 0.8384
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 148/250 
+	| Avg Actor Loss: -0.4183 | Avg Critic Loss: 0.0039 
+	| Avg Length: 50.8782 | Avg Reward: 0.8282 
+	| Avg Length: 50.5736 | Avg Reward: 0.8382
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 149/250 
+	| Avg Actor Loss: -0.3606 | Avg Critic Loss: 0.0033 
+	| Avg Length: 51.3392 | Avg Reward: 0.8283 
+	| Avg Length: 50.4200 | Avg Reward: 0.8384
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 150/250 
+	| Avg Actor Loss: -0.3699 | Avg Critic Loss: 0.0037 
+	| Avg Length: 51.1896 | Avg Reward: 0.8275 
+	| Avg Length: 50.8120 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 151/250 
+	| Avg Actor Loss: -0.3890 | Avg Critic Loss: 0.0034 
+	| Avg Length: 51.2888 | Avg Reward: 0.8286 
+	| Avg Length: 50.8752 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 152/250 
+	| Avg Actor Loss: -0.4858 | Avg Critic Loss: 0.0039 
+	| Avg Length: 51.0972 | Avg Reward: 0.8266 
+	| Avg Length: 50.4400 | Avg Reward: 0.8390
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 153/250 
+	| Avg Actor Loss: -0.3452 | Avg Critic Loss: 0.0037 
+	| Avg Length: 51.0366 | Avg Reward: 0.8283 
+	| Avg Length: 50.8512 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 154/250 
+	| Avg Actor Loss: -0.3627 | Avg Critic Loss: 0.0037 
+	| Avg Length: 51.3344 | Avg Reward: 0.8272 
+	| Avg Length: 51.0008 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 155/250 
+	| Avg Actor Loss: -0.3086 | Avg Critic Loss: 0.0031 
+	| Avg Length: 51.1844 | Avg Reward: 0.8295 
+	| Avg Length: 50.6072 | Avg Reward: 0.8390
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 156/250 
+	| Avg Actor Loss: -0.3846 | Avg Critic Loss: 0.0035 
+	| Avg Length: 51.0786 | Avg Reward: 0.8289 
+	| Avg Length: 50.4824 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 157/250 
+	| Avg Actor Loss: -0.4017 | Avg Critic Loss: 0.0034 
+	| Avg Length: 51.2776 | Avg Reward: 0.8289 
+	| Avg Length: 50.8472 | Avg Reward: 0.8389
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 158/250 
+	| Avg Actor Loss: -0.4168 | Avg Critic Loss: 0.0036 
+	| Avg Length: 50.7884 | Avg Reward: 0.8287 
+	| Avg Length: 50.4736 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 159/250 
+	| Avg Actor Loss: -0.4502 | Avg Critic Loss: 0.0033 
+	| Avg Length: 51.2266 | Avg Reward: 0.8289 
+	| Avg Length: 50.7920 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 160/250 
+	| Avg Actor Loss: -0.3069 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.0826 | Avg Reward: 0.8315 
+	| Avg Length: 50.3776 | Avg Reward: 0.8386
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 161/250 
+	| Avg Actor Loss: -0.4450 | Avg Critic Loss: 0.0034 
+	| Avg Length: 50.9552 | Avg Reward: 0.8289 
+	| Avg Length: 50.6264 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 162/250 
+	| Avg Actor Loss: -0.4195 | Avg Critic Loss: 0.0034 
+	| Avg Length: 51.2538 | Avg Reward: 0.8286 
+	| Avg Length: 50.7760 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 163/250 
+	| Avg Actor Loss: -0.3140 | Avg Critic Loss: 0.0031 
+	| Avg Length: 51.3180 | Avg Reward: 0.8311 
+	| Avg Length: 50.6152 | Avg Reward: 0.8390
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 164/250 
+	| Avg Actor Loss: -0.4021 | Avg Critic Loss: 0.0033 
+	| Avg Length: 51.2316 | Avg Reward: 0.8294 
+	| Avg Length: 50.6992 | Avg Reward: 0.8389
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 165/250 
+	| Avg Actor Loss: -0.3837 | Avg Critic Loss: 0.0030 
+	| Avg Length: 51.0858 | Avg Reward: 0.8303 
+	| Avg Length: 50.4400 | Avg Reward: 0.8388
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 166/250 
+	| Avg Actor Loss: -0.3275 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.0466 | Avg Reward: 0.8316 
+	| Avg Length: 50.8608 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 167/250 
+	| Avg Actor Loss: -0.3563 | Avg Critic Loss: 0.0031 
+	| Avg Length: 51.2640 | Avg Reward: 0.8299 
+	| Avg Length: 50.6336 | Avg Reward: 0.8390
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 168/250 
+	| Avg Actor Loss: -0.3567 | Avg Critic Loss: 0.0028 
+	| Avg Length: 51.1012 | Avg Reward: 0.8311 
+	| Avg Length: 50.5912 | Avg Reward: 0.8390
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 169/250 
+	| Avg Actor Loss: -0.3409 | Avg Critic Loss: 0.0029 
+	| Avg Length: 50.9990 | Avg Reward: 0.8317 
+	| Avg Length: 50.5744 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 170/250 
+	| Avg Actor Loss: -0.3975 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.2890 | Avg Reward: 0.8308 
+	| Avg Length: 50.9184 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 171/250 
+	| Avg Actor Loss: -0.3920 | Avg Critic Loss: 0.0032 
+	| Avg Length: 51.2430 | Avg Reward: 0.8305 
+	| Avg Length: 50.5584 | Avg Reward: 0.8393
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 172/250 
+	| Avg Actor Loss: -0.3983 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.7388 | Avg Reward: 0.8308 
+	| Avg Length: 50.2624 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 173/250 
+	| Avg Actor Loss: -0.3663 | Avg Critic Loss: 0.0030 
+	| Avg Length: 50.9370 | Avg Reward: 0.8311 
+	| Avg Length: 50.3216 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 174/250 
+	| Avg Actor Loss: -0.3731 | Avg Critic Loss: 0.0032 
+	| Avg Length: 50.8228 | Avg Reward: 0.8301 
+	| Avg Length: 50.4672 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 175/250 
+	| Avg Actor Loss: -0.5149 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.1596 | Avg Reward: 0.8304 
+	| Avg Length: 50.2688 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 176/250 
+	| Avg Actor Loss: -0.3030 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.9146 | Avg Reward: 0.8314 
+	| Avg Length: 50.4136 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 177/250 
+	| Avg Actor Loss: -0.3697 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.0334 | Avg Reward: 0.8313 
+	| Avg Length: 50.2600 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 178/250 
+	| Avg Actor Loss: -0.3559 | Avg Critic Loss: 0.0028 
+	| Avg Length: 51.0570 | Avg Reward: 0.8311 
+	| Avg Length: 50.4512 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 179/250 
+	| Avg Actor Loss: -0.3531 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.8818 | Avg Reward: 0.8310 
+	| Avg Length: 50.4760 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 180/250 
+	| Avg Actor Loss: -0.4193 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.0392 | Avg Reward: 0.8313 
+	| Avg Length: 50.3568 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 181/250 
+	| Avg Actor Loss: -0.3818 | Avg Critic Loss: 0.0033 
+	| Avg Length: 50.9636 | Avg Reward: 0.8301 
+	| Avg Length: 50.7464 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 182/250 
+	| Avg Actor Loss: -0.3534 | Avg Critic Loss: 0.0028 
+	| Avg Length: 51.3314 | Avg Reward: 0.8307 
+	| Avg Length: 50.8272 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 183/250 
+	| Avg Actor Loss: -0.3280 | Avg Critic Loss: 0.0026 
+	| Avg Length: 51.3234 | Avg Reward: 0.8318 
+	| Avg Length: 50.6992 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 184/250 
+	| Avg Actor Loss: -0.3826 | Avg Critic Loss: 0.0031 
+	| Avg Length: 51.0410 | Avg Reward: 0.8303 
+	| Avg Length: 50.7712 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 185/250 
+	| Avg Actor Loss: -0.3356 | Avg Critic Loss: 0.0029 
+	| Avg Length: 51.0060 | Avg Reward: 0.8310 
+	| Avg Length: 50.3768 | Avg Reward: 0.8393
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 186/250 
+	| Avg Actor Loss: -0.2912 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.7752 | Avg Reward: 0.8333 
+	| Avg Length: 50.4944 | Avg Reward: 0.8393
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 187/250 
+	| Avg Actor Loss: -0.3600 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.9614 | Avg Reward: 0.8327 
+	| Avg Length: 50.4584 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 188/250 
+	| Avg Actor Loss: -0.3603 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.9430 | Avg Reward: 0.8314 
+	| Avg Length: 50.4744 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 189/250 
+	| Avg Actor Loss: -0.4683 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.9434 | Avg Reward: 0.8309 
+	| Avg Length: 50.5416 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 190/250 
+	| Avg Actor Loss: -0.3548 | Avg Critic Loss: 0.0028 
+	| Avg Length: 51.0438 | Avg Reward: 0.8320 
+	| Avg Length: 50.4536 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 191/250 
+	| Avg Actor Loss: -0.3515 | Avg Critic Loss: 0.0025 
+	| Avg Length: 51.1256 | Avg Reward: 0.8328 
+	| Avg Length: 50.5744 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 192/250 
+	| Avg Actor Loss: -0.4468 | Avg Critic Loss: 0.0030 
+	| Avg Length: 51.0494 | Avg Reward: 0.8311 
+	| Avg Length: 50.6592 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 193/250 
+	| Avg Actor Loss: -0.2934 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.9412 | Avg Reward: 0.8324 
+	| Avg Length: 50.5696 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 194/250 
+	| Avg Actor Loss: -0.3573 | Avg Critic Loss: 0.0022 
+	| Avg Length: 51.2234 | Avg Reward: 0.8340 
+	| Avg Length: 50.3624 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 195/250 
+	| Avg Actor Loss: -0.3370 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.7988 | Avg Reward: 0.8327 
+	| Avg Length: 50.3864 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 196/250 
+	| Avg Actor Loss: -0.3114 | Avg Critic Loss: 0.0030 
+	| Avg Length: 50.7936 | Avg Reward: 0.8317 
+	| Avg Length: 50.4208 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 197/250 
+	| Avg Actor Loss: -0.4793 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.9040 | Avg Reward: 0.8321 
+	| Avg Length: 50.4808 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 198/250 
+	| Avg Actor Loss: -0.3515 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.7394 | Avg Reward: 0.8333 
+	| Avg Length: 50.2976 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 199/250 
+	| Avg Actor Loss: -0.4096 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.8514 | Avg Reward: 0.8314 
+	| Avg Length: 50.2920 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 200/250 
+	| Avg Actor Loss: -0.4412 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.7314 | Avg Reward: 0.8306 
+	| Avg Length: 50.5520 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 201/250 
+	| Avg Actor Loss: -0.3370 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.9806 | Avg Reward: 0.8324 
+	| Avg Length: 50.6344 | Avg Reward: 0.8393
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 202/250 
+	| Avg Actor Loss: -0.4126 | Avg Critic Loss: 0.0030 
+	| Avg Length: 50.9208 | Avg Reward: 0.8311 
+	| Avg Length: 50.5208 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 203/250 
+	| Avg Actor Loss: -0.3834 | Avg Critic Loss: 0.0027 
+	| Avg Length: 51.1450 | Avg Reward: 0.8315 
+	| Avg Length: 50.4760 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 204/250 
+	| Avg Actor Loss: -0.4995 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.7470 | Avg Reward: 0.8311 
+	| Avg Length: 50.4784 | Avg Reward: 0.8400
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 205/250 
+	| Avg Actor Loss: -0.3924 | Avg Critic Loss: 0.0030 
+	| Avg Length: 50.8768 | Avg Reward: 0.8309 
+	| Avg Length: 50.4384 | Avg Reward: 0.8400
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 206/250 
+	| Avg Actor Loss: -0.3642 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.8752 | Avg Reward: 0.8321 
+	| Avg Length: 50.4256 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 207/250 
+	| Avg Actor Loss: -0.2943 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.7716 | Avg Reward: 0.8331 
+	| Avg Length: 50.3168 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 208/250 
+	| Avg Actor Loss: -0.3473 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.9044 | Avg Reward: 0.8333 
+	| Avg Length: 50.1824 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 209/250 
+	| Avg Actor Loss: -0.4296 | Avg Critic Loss: 0.0030 
+	| Avg Length: 50.6424 | Avg Reward: 0.8318 
+	| Avg Length: 50.3000 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 210/250 
+	| Avg Actor Loss: -0.4011 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.9668 | Avg Reward: 0.8331 
+	| Avg Length: 50.3000 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 211/250 
+	| Avg Actor Loss: -0.3243 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.7868 | Avg Reward: 0.8329 
+	| Avg Length: 50.3440 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 212/250 
+	| Avg Actor Loss: -0.4040 | Avg Critic Loss: 0.0031 
+	| Avg Length: 50.7536 | Avg Reward: 0.8316 
+	| Avg Length: 50.4352 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 213/250 
+	| Avg Actor Loss: -0.3509 | Avg Critic Loss: 0.0024 
+	| Avg Length: 50.7898 | Avg Reward: 0.8337 
+	| Avg Length: 50.2896 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 214/250 
+	| Avg Actor Loss: -0.4803 | Avg Critic Loss: 0.0030 
+	| Avg Length: 50.8414 | Avg Reward: 0.8308 
+	| Avg Length: 50.3232 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 215/250 
+	| Avg Actor Loss: -0.3129 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.9530 | Avg Reward: 0.8327 
+	| Avg Length: 50.2368 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 216/250 
+	| Avg Actor Loss: -0.3534 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.6948 | Avg Reward: 0.8323 
+	| Avg Length: 50.2176 | Avg Reward: 0.8392
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 217/250 
+	| Avg Actor Loss: -0.2257 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.8330 | Avg Reward: 0.8339 
+	| Avg Length: 50.2904 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 218/250 
+	| Avg Actor Loss: -0.3922 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.8976 | Avg Reward: 0.8321 
+	| Avg Length: 50.3152 | Avg Reward: 0.8391
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 219/250 
+	| Avg Actor Loss: -0.3699 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.7012 | Avg Reward: 0.8325 
+	| Avg Length: 50.3536 | Avg Reward: 0.8400
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 220/250 
+	| Avg Actor Loss: -0.3911 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.9084 | Avg Reward: 0.8334 
+	| Avg Length: 50.3104 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 221/250 
+	| Avg Actor Loss: -0.3346 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.8630 | Avg Reward: 0.8319 
+	| Avg Length: 50.3144 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 222/250 
+	| Avg Actor Loss: -0.4010 | Avg Critic Loss: 0.0029 
+	| Avg Length: 50.6716 | Avg Reward: 0.8321 
+	| Avg Length: 50.3128 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 223/250 
+	| Avg Actor Loss: -0.3102 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.7764 | Avg Reward: 0.8326 
+	| Avg Length: 50.3192 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 224/250 
+	| Avg Actor Loss: -0.4124 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.8702 | Avg Reward: 0.8324 
+	| Avg Length: 50.3424 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 225/250 
+	| Avg Actor Loss: -0.3211 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.8170 | Avg Reward: 0.8336 
+	| Avg Length: 50.3736 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 226/250 
+	| Avg Actor Loss: -0.3842 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.8184 | Avg Reward: 0.8324 
+	| Avg Length: 50.4984 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 227/250 
+	| Avg Actor Loss: -0.3852 | Avg Critic Loss: 0.0022 
+	| Avg Length: 51.0338 | Avg Reward: 0.8333 
+	| Avg Length: 50.5544 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 228/250 
+	| Avg Actor Loss: -0.3603 | Avg Critic Loss: 0.0026 
+	| Avg Length: 51.0862 | Avg Reward: 0.8320 
+	| Avg Length: 50.5624 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 229/250 
+	| Avg Actor Loss: -0.4250 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.9972 | Avg Reward: 0.8315 
+	| Avg Length: 50.5520 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 230/250 
+	| Avg Actor Loss: -0.4595 | Avg Critic Loss: 0.0024 
+	| Avg Length: 51.0596 | Avg Reward: 0.8330 
+	| Avg Length: 50.5312 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 231/250 
+	| Avg Actor Loss: -0.3664 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.9318 | Avg Reward: 0.8331 
+	| Avg Length: 50.5104 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 232/250 
+	| Avg Actor Loss: -0.3868 | Avg Critic Loss: 0.0026 
+	| Avg Length: 51.0526 | Avg Reward: 0.8327 
+	| Avg Length: 50.4896 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 233/250 
+	| Avg Actor Loss: -0.3070 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.9146 | Avg Reward: 0.8326 
+	| Avg Length: 50.4480 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 234/250 
+	| Avg Actor Loss: -0.4511 | Avg Critic Loss: 0.0026 
+	| Avg Length: 51.1158 | Avg Reward: 0.8323 
+	| Avg Length: 50.4376 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 235/250 
+	| Avg Actor Loss: -0.3811 | Avg Critic Loss: 0.0027 
+	| Avg Length: 50.9576 | Avg Reward: 0.8324 
+	| Avg Length: 50.4376 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 236/250 
+	| Avg Actor Loss: -0.3715 | Avg Critic Loss: 0.0026 
+	| Avg Length: 50.9200 | Avg Reward: 0.8326 
+	| Avg Length: 50.4376 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 237/250 
+	| Avg Actor Loss: -0.3477 | Avg Critic Loss: 0.0026 
+	| Avg Length: 51.1302 | Avg Reward: 0.8327 
+	| Avg Length: 50.4168 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 238/250 
+	| Avg Actor Loss: -0.3791 | Avg Critic Loss: 0.0025 
+	| Avg Length: 51.0314 | Avg Reward: 0.8330 
+	| Avg Length: 50.4064 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 239/250 
+	| Avg Actor Loss: -0.3391 | Avg Critic Loss: 0.0025 
+	| Avg Length: 51.0172 | Avg Reward: 0.8329 
+	| Avg Length: 50.3960 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 240/250 
+	| Avg Actor Loss: -0.3001 | Avg Critic Loss: 0.0024 
+	| Avg Length: 50.9854 | Avg Reward: 0.8333 
+	| Avg Length: 50.3856 | Avg Reward: 0.8400
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 241/250 
+	| Avg Actor Loss: -0.2915 | Avg Critic Loss: 0.0023 
+	| Avg Length: 51.0232 | Avg Reward: 0.8336 
+	| Avg Length: 50.3752 | Avg Reward: 0.8399
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 242/250 
+	| Avg Actor Loss: -0.4466 | Avg Critic Loss: 0.0026 
+	| Avg Length: 51.0326 | Avg Reward: 0.8324 
+	| Avg Length: 50.3752 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 243/250 
+	| Avg Actor Loss: -0.3467 | Avg Critic Loss: 0.0025 
+	| Avg Length: 50.9078 | Avg Reward: 0.8327 
+	| Avg Length: 50.3752 | Avg Reward: 0.8396
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 244/250 
+	| Avg Actor Loss: -0.3742 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.7568 | Avg Reward: 0.8324 
+	| Avg Length: 50.3752 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 245/250 
+	| Avg Actor Loss: -0.3426 | Avg Critic Loss: 0.0025 
+	| Avg Length: 51.0730 | Avg Reward: 0.8330 
+	| Avg Length: 50.3752 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 246/250 
+	| Avg Actor Loss: -0.4009 | Avg Critic Loss: 0.0024 
+	| Avg Length: 50.9046 | Avg Reward: 0.8330 
+	| Avg Length: 50.3752 | Avg Reward: 0.8397
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 247/250 
+	| Avg Actor Loss: -0.2863 | Avg Critic Loss: 0.0024 
+	| Avg Length: 50.8534 | Avg Reward: 0.8335 
+	| Avg Length: 50.3752 | Avg Reward: 0.8394
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 248/250 
+	| Avg Actor Loss: -0.3850 | Avg Critic Loss: 0.0028 
+	| Avg Length: 50.8808 | Avg Reward: 0.8322 
+	| Avg Length: 50.3752 | Avg Reward: 0.8398
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
+Epoch 249/250 
+	| Avg Actor Loss: -0.4077 | Avg Critic Loss: 0.0029 
+	| Avg Length: 50.8792 | Avg Reward: 0.8313 
+	| Avg Length: 50.3752 | Avg Reward: 0.8395
+	| OG  Acc: 1.00  | Masked Acc: 0.99 | OG  F1: 1.00 | Masked F1: 0.99
