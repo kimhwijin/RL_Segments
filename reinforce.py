@@ -125,7 +125,7 @@ def main(
 
 
     train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shuffle=True)
-    test_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shuffle=False)
+    test_loader = torch.utils.data.DataLoader(test_set, batch_size=batch_size, shuffle=False)
 
     logger = open(f"{exp_dir}/{exp_name}.log", 'w')
 

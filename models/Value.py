@@ -6,9 +6,38 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from torchrl.objectives.value.functional import generalized_advantage_estimate
+from torchrl.objectives.value import GAE
+from torchrl.modules import ValueOperator
+
 # 
 from backbones import get_default_backbone
 
+
+def init_value_module(
+    d_in,
+    d_model,
+    seq_len,
+    backbone
+):
+    value_net = ValueNetwork(
+        d_in = d_in+1, # mask dimension
+        d_model = d_model,
+        d_out = 1, # value
+        seq_len = seq_len,
+        backbone = backbone
+    )
+
+    value_module = ValueOperator(
+        module=value_net,
+        in_keys=["x", 'curr_mask'],
+    )
+
+    advantage_module = GAE(
+        value_network=None,
+        gamma = 0.99, lmbda=0.95, average_gae=True
+    )
+
+    return value_module, advantage_module
 
 class ValueNetwork(nn.Module):
     def __init__(self, d_in, d_model, d_out, seq_len, backbone):

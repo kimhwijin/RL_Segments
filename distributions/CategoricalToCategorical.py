@@ -47,3 +47,21 @@ class CategoricalToCategorical(D.Distribution):
     
     def entropy(self):
         return self.cat_start.entropy()
+
+    @torch.no_grad()
+    def calculate_marginal_mask(self):
+        start_probs = self.cat_start.probs
+        exp_scores = self.end_logits.exp()
+        cum_rev = torch.cumsum(exp_scores.flip(-1), dim=-1).flip(-1)  # (B, T)
+        denom   = cum_rev + 1e-7
+
+        ratio = cum_rev[:, :, None] / denom[:, None, :]
+        tri_mask = torch.tril(torch.ones(
+            self.seq_len, self.seq_len, device=ratio.device, dtype=ratio.dtype)
+        )                                                            # (T, T)
+        ratio *= tri_mask                                            # broadcast
+
+        # ----- 4) Σ_s  P(S=s) · P(E ≥ t | S=s)  -----------------------
+        mask_probs = torch.sum(ratio * start_probs[:, None, :], dim=-1)  # (B, T)
+        return mask_probs.clamp_(0.0, 1.0)   # 수치 오차 방지
+

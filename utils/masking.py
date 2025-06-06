@@ -3,6 +3,12 @@ import torch.nn as nn
 import torch.nn.functional as F
 import timesynth as ts
 
+def MaskingFunction(mask_type):
+    if mask_type == 'seq':
+        return SeqCombMask()
+    elif mask_type == 'zero':
+        return ZeroMask()
+
 class ZeroMask(nn.Module):
     def __init__(self):
         super().__init__()
