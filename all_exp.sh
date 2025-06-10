@@ -26,8 +26,6 @@ for backbone in tcn rnn; do
                             --predictor_type blackbox \
                             --predictor_pretrain 0 \
                             --mask_type seq
-                        done
-                    done
                 done
             done
         done

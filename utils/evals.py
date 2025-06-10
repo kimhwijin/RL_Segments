@@ -23,7 +23,7 @@ def valid_step(
     num_classes,
     exp_dir,
     best_reward,
-    logger,
+    logger_dir,
     history,
     device,
 ):
@@ -96,7 +96,8 @@ def valid_step(
         + f"\n\t| OG  Acc: {og_acc:.2f}  | Masked Acc: {masked_acc:.2f}"\
         + f" | OG  F1: {og_f1:.2f} | Masked F1: {masked_f1:.2f}"
     print(msg)
-    logger.write(msg+"\n")
+    with open(logger_dir, 'a') as f:
+        f.write(msg+"\n")
     history['valid_length'].append(avg_length)
     history['valid_reward'].append(avg_reward)
     history['og_acc'].append(og_acc)

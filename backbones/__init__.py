@@ -32,11 +32,12 @@ def get_default_backbone(d_in, d_model, seq_len, backbone):
             seq_len=seq_len,
             num_channels = [d_model]*3,
         )
-    elif backbone.lower() == 'rnn':
+    elif 'rnn' in backbone.lower():
         return LSTM.Model(
             enc_in = d_in,
             d_model = d_model,
             e_layers = 2,
+            pooling = backbone.lower().split("_")[-1]
         )
     elif backbone.lower() == '':
         return nn.Sequential(

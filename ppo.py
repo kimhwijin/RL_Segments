@@ -35,27 +35,23 @@ def main(
     predictor_type, # blackbox, predictor
     predictor_pretrain, # blackbox, predictor
     mask_type, # seq, zero, normal,
+    epochs,
+    device,
 ):
     exp_name = get_exp_name('ppo', backbone, weights, seg_dist, dataset, target_type, predictor_type, predictor_pretrain, mask_type)
     exp_dir = f'./checkpoints/{exp_name}'
     os.makedirs(exp_dir, exist_ok=True)
 
     # Logger ------------------------------------------------------------------------------------
-    logger = open(f"{exp_dir}/log.log", 'w')
+    logger_dir = f"{exp_dir}/log.log"
+    with open(logger_dir, 'w') as f:
+        pass
 
     # Setting ------------------------------------------------------------------------------------
-    device              = 'cuda:4'
-    if backbone == 'rnn':
-        epochs           = 500
-        predictor_epochs = 2
-    else:
-        epochs          = 250
-        predictor_epochs    = 1
+    predictor_epochs    = 1
         
     rollout_len         = 4096+2048
     ppo_epochs          = 4
-    predictor_epochs    = 1
-    pre_train_epochs    = 100
     batch_size          = 256
 
     d_in                = 1
@@ -130,7 +126,7 @@ def main(
     elif predictor_type == 'predictor':
         predictor = Predictor.PredictorNetwork(d_in=d_in, d_model=d_model, d_out=d_out, seq_len=seq_len, backbone=backbone)
         predictor = predictor.to(device)
-        pred_optim = torch.optim.Adam(predictor.parameters(), lr=1e-4)
+        pred_optim = torch.optim.Adam(predictor.parameters(), lr=1e-3 if 'rnn' in backbone.lower() else 1e-4)
 
         if bool(predictor_pretrain):
             predictor.train()
@@ -161,7 +157,9 @@ def main(
     for epoch in range(epochs):
         msg = f"Epoch : {epoch}"
         print(msg)
-        logger.write(msg + '\n')
+        with open(logger_dir, 'a') as f:
+            f.write(msg + '\n')
+        
         # Collect ------------------------------------------------------------------------------------
         replay_buffer = evals.collect_buffer_with_old_policy( # torch no grad func
             replay_buffer = replay_buffer, 
@@ -185,7 +183,7 @@ def main(
                 pred_optim = pred_optim,
                 mask_fn = mask_fn,
                 history = history,
-                logger = logger,
+                logger_dir = logger_dir,
                 device = device,
             )
             predictor.eval()
@@ -202,7 +200,7 @@ def main(
             value_optim = value_optim,
             value_scheduler = value_scheduler,
             history = history,
-            logger = logger,
+            logger_dir = logger_dir,
             device = device,
         )
         replay_buffer.empty()
@@ -222,13 +220,12 @@ def main(
                 num_classes = d_out,
                 exp_dir = exp_dir,
                 best_reward = best_reward,
-                logger = logger,
+                logger_dir = logger_dir,
                 history = history,
                 device = device,
         )
         # ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    logger.close()
     torch.save(history, f"{exp_dir}/history.pth")
 
 
@@ -280,7 +277,7 @@ def predictor_update(
     pred_optim,
     mask_fn,
     history,
-    logger,
+    logger_dir,
     device
 ):
     epoch_total = 0.
@@ -306,7 +303,8 @@ def predictor_update(
         avg_pred_loss /= epoch_total
     msg = f"\t| Avg Predictor Loss: {avg_pred_loss:.4f}"
     print(msg)
-    logger.write(msg + '\n')
+    with open(logger_dir, 'a') as f:
+        f.write(msg + '\n')
     history['pred_loss'].append(avg_pred_loss)
     return history
 
@@ -321,7 +319,7 @@ def ppo_update(
     value_optim,
     value_scheduler,
     history,
-    logger,
+    logger_dir,
     device,
 ):
     epoch_total = 0.
@@ -371,7 +369,8 @@ def ppo_update(
         + f"\n\t| Avg Length: {avg_length:.4f} " \
         + f"| Avg Reward: {avg_reward:.4f}\n"
     print(msg, end='')
-    logger.write(msg)
+    with open(logger_dir, 'a') as f:
+        f.write(msg)
     history['actor_loss'].append(avg_actor_loss)
     history['critic_loss'].append(avg_critic_loss)
     history['train_length'].append(avg_length)

@@ -43,7 +43,7 @@ def test_sample_plots(
     predictor_pretrain,
     mask_type,
 ):  
-    device = 'cuda:4'
+    device = 'cpu'
     d_in        = 1
     d_model     = 128
     seq_len     = 100
@@ -201,16 +201,16 @@ def test_sample_plots(
                 ax_start.legend(fontsize=5)
 
                 end_p = dist.nb.log_prob(torch.arange(seq_len, device=dist.nb.probs.device)).exp().detach().cpu().numpy().reshape(-1)
-                ax_end.bar(range(seq_len), end_p, color='tab:orange', label='P(Δ=d)')
+                ax_end.bar(range(seq_len), end_p, color='tab:orange', label=f'End r={dist.nb.total_count.item():.2f}, p={dist.nb.probs.item():.2f}')
                 ax_end.legend(fontsize=5)
             
             elif seg_dist == 'nb_nb':
                 start_p = dist.nb_start.log_prob(torch.arange(seq_len, device=dist.nb_start.probs.device)).exp().detach().cpu().numpy().reshape(-1)
-                ax_start.bar(range(seq_len), start_p, color='tab:blue', label='P(Δ=s)')
+                ax_start.bar(range(seq_len), start_p, color='tab:blue', label=f'Start r={dist.nb_start.total_count.item():.2f}, p={dist.nb_start.probs.item():.2f}')
                 ax_start.legend(fontsize=5)
 
                 end_p = dist.nb_end.log_prob(torch.arange(seq_len, device=dist.nb_end.probs.device)).exp().detach().cpu().numpy().reshape(-1)
-                ax_end.bar(range(seq_len), end_p, color='tab:orange', label='P(Δ=d)')
+                ax_end.bar(range(seq_len), end_p, color='tab:orange', label=f'End r={dist.nb_end.total_count.item():.2f}, p={dist.nb_end.probs.item():.2f}')
                 ax_end.legend(fontsize=5)
 
     # 범례 한 번만 표시
@@ -398,6 +398,7 @@ def result_plots(
     # Avg Length
     axs[0].plot(epochs, avg_lengths_tr, label='Train')
     axs[0].plot(epochs, avg_lengths, label='Valid')
+    axs[0].legend()
     axs[0].set_ylabel('Avg Length')
     axs[0].set_title('Train & Valid Avg Length')
     axs[0].plot(best_epoch, avg_lengths[best_idx], 'ro')
@@ -407,8 +408,9 @@ def result_plots(
                     arrowprops=dict(arrowstyle='->'))
 
     # Avg Reward
-    axs[1].plot(epochs, avg_rewards, label='Valid')
     axs[1].plot(epochs, avg_rewards_tr, label='Train')
+    axs[1].plot(epochs, avg_rewards, label='Valid')
+    axs[1].legend()
     axs[1].set_ylabel('Avg Reward')
     axs[1].set_title('Train & Valid Avg Reward')
     axs[1].plot(best_epoch, avg_rewards[best_idx], 'ro')
